@@ -103,7 +103,11 @@ yarn init
 ```
 ```
 yarn create vite admin --template react-ts
+```
+```
 yarn workspace admin install
+```
+```
 yarn workspace admin dev
 ```
 
