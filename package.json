@@ -1,4 +1,34 @@
 {
   "name": "yarn-workspaces-monorepo",
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "yarn@3.6.3",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "common/*"
+    ]
+  },
+  "scripts": {
+    "admin": "yarn workspace admin dev",
+    "cmc": "yarn workspace cmc dev",
+    "admin:build": "yarn workspace admin build",
+    "cmc:build": "yarn workspace cmc build",
+    "storybook": "yarn workspace ui storybook"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.9",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0"
+  }
 }
