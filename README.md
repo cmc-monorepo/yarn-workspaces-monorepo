@@ -97,7 +97,7 @@ yarn add -D eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-r
 
 <br />
 
-6. admin, cmc 프로젝트 세팅 (react, vite, typescript)
+6. admin, cmc 레포 세팅 (react, vite, typescript)
 ```
 yarn init
 ```
@@ -113,7 +113,7 @@ yarn workspace admin dev
 
 <br />
 
-7. ui 프로젝트 세팅 (storybook)
+7. ui 레포 세팅 (storybook)
 ```
 yarn init
 ```
@@ -132,7 +132,7 @@ yarn workspace ui dlx sb init --builder webpack5
 
 <br />
 
-8. utils yarn init
+8. utils 레포 yarn init
 ```
 yarn init
 ```
