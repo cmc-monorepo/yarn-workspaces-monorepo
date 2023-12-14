@@ -15,6 +15,12 @@
     "cmc:build": "yarn workspace cmc build",
     "storybook": "yarn workspace ui storybook"
   },
+  "resolutions": {
+    "webpack": "5",
+    "@storybook/core-common/webpack": "^5",
+    "@storybook/core-server/webpack": "^5",
+    "@storybook/react/webpack": "^5"
+  },
   "devDependencies": {
     "@types/eslint": "^8.44.9",
     "@types/node": "^20.10.4",
